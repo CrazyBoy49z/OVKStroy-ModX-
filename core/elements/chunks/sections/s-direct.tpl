@@ -36,7 +36,7 @@
       <div class="col-sm-4">
 
         <div class="item-vertical">
-          <img class="img-svg" src="img/services/3.svg" alt="Оборудование">
+          <img class="img-svg" src="assets/img/services/3.svg" alt="Оборудование">
           <h3>Оборудование</h3>
           <p>Кроме того, мы реализуем оборудование для кондиционирования и венлиляции помещений в Москве и области.</p>
           <a href="#callback" class="button button-small button-gray"
