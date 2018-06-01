@@ -6,7 +6,7 @@
       </div>
 
       {$_modx->runSnippet('getImageList', [
-        'docId' => $_modx->resource.id,
+        'docid' => 1,
         'tvname' => 'team',
         'tpl' => '@CODE:
           <div class="col-sm-4">

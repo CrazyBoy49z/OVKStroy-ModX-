@@ -1,0 +1,40 @@
+{extends 'file:templates/layout.tpl'}
+
+{block 'main'}
+  <section class="page">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <article>
+            <div class="row">
+              <div class="col-md-2">
+                <div class="text-center">
+                  <img class="man-logo img-svg" src="{$_modx->resource.image}" alt="{$_modx->resource.pagetitle}">
+                </div>
+
+              </div>
+              <div class="col-md-10">
+                <h1><a href="#">Оборудование</a> <small><i class="fa fa-angle-right"></i></small> {$_modx->resource.pagetitle}</h1>
+
+                {$_modx->resource.content}
+
+                <div class="text-center"><br>
+                  <a href="#callback" class="button"
+                  data-form="Заказ Оборудования {$_modx->resource.pagetitle}"
+                  data-text="Заказ Оборудования {$_modx->resource.pagetitle}"
+                  >Заказать оборудование {$_modx->resource.pagetitle}</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-sm-4">
+          {include 'file:chunks/sidebar.tpl'}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {include 'file:chunks/sections/s-team.tpl'}
+{/block}

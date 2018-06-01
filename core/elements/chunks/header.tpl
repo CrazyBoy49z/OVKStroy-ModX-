@@ -55,7 +55,7 @@
             <h1>{$_modx->resource.longtitle}</h1>
 
             {$_modx->runSnippet('getImageList', [
-              'docId' => $_modx->resource.id,
+              'docid' => $_modx->resource.id,
               'tvname' => 'promotions_list',
               'wrapperTpl' => '@CODE: <ul class="home-list">{{+output}}</ul>'
               'tpl' => '@CODE: <li><i class="fa fa-check"></i> {{+title}}</li>'

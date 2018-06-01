@@ -19,7 +19,7 @@
           </a>
 
           {$_modx->runSnippet('getImageList', [
-            'docId' => $_modx->resource.id,
+            'docid' => 1,
             'tvname' => 'gallery',
             'wrapperTpl' => '@CODE: <div class="gallery-images">{{+output}}</div>',
             'tpl' => '@CODE: <a href="{{+image}}" data-preview="{{+image}}"></a>'
@@ -30,18 +30,18 @@
       <div class="col-sm-6">
         <h2>
           {$_modx->runSnippet('pdoField', [
-            'docId' => $_modx->resource.id,
+            'id' => $_modx->resource.id,
             'field' => 'gallery_title'
           ])}
         </h2>
 
         {$_modx->runSnippet('pdoField', [
-          'docId' => $_modx->resource.id,
+          'id' => $_modx->resource.id,
           'field' => 'gallery_description'
         ])}
 
         {$_modx->runSnippet('getImageList', [
-          'docId' => $_modx->resource.id,
+          'docid' => 1,
           'tvname' => 'promotions_list',
           'limit' => 2,
           'wrapperTpl' => '@CODE: <ul class="home-list">{{+output}}</ul>'
@@ -58,7 +58,7 @@
 
           <div class="col-md-6">
             {$_modx->runSnippet('getImageList', [
-              'docId' => $_modx->resource.id,
+              'docid' => 1,
               'tvname' => 'certificates',
               'wrapperTpl' => '@CODE:
                 <div class="certificate-wrap mfp-gallery">

@@ -8,7 +8,7 @@
       <div class="col-sm-12">
         <div class="carousel-brands">
           {$_modx->runSnippet('getImageList', [
-            'docId' => $_modx->resource.id,
+            'docid' => 1,
             'tvname' => 'partners',
             'tpl' => '@CODE:
               <div class="carousl-brand">

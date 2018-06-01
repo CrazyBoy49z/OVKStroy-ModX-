@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       {$_modx->runSnippet('getImageList', [
-        'docId' => 1,
+        'docid' => 1,
         'tvname' => 'teasers',
         'tpl' => '@CODE:
           <div class="col-md-3 col-sm-6">

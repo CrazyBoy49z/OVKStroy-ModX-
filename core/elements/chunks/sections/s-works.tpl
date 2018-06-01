@@ -7,7 +7,7 @@
       </div>
 
       {$_modx->runSnippet('getImageList', [
-        'docId' => $_modx->resource.id,
+        'docid' => 1,
         'tvname' => 'portfolio',
         'wrapperTpl' => '@CODE: <div class="portfolio clearfix">{{+output}}</div>',
         'tpl' => '@CODE:
