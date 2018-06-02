@@ -1,6 +1,8 @@
 {extends 'file:templates/layout.tpl'}
 
 {block 'main'}
+  {include 'file:chunks/header.tpl'}
+
   <section class="page">
     <div class="container">
       <div class="row">

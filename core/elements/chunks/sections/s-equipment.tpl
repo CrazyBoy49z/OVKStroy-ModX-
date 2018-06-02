@@ -24,7 +24,7 @@
                       <h3>{$pagetitle}</h3>
                       <p>{$description}</p>
                     </div>
-                    <a href="{$uri}" class="button button-small button-gray">Перейти в каталог</a>
+                    <a href="{$uri}" class="button button-small button-gray">Подробнее</a>
                   </div>
                 </div>'
             ])}
