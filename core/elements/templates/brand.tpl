@@ -16,7 +16,14 @@
 
               </div>
               <div class="col-md-10">
-                <h1><a href="#">Оборудование</a> <small><i class="fa fa-angle-right"></i></small> {$_modx->resource.pagetitle}</h1>
+                <h1>
+                  {$_modx->runSnippet('pdoCrumbs', [
+                    'from' => 4,
+                    'tpl' => '@INLINE <a href="{$uri}">{$pagetitle}</a>',
+                    'outputSeparator' => ' <small><i class="fa fa-angle-right"></i></small> ',
+                    'tplCurrent' => '@INLINE {$pagetitle}'
+                  ])}
+                </h1>
 
                 {$_modx->resource.content}
 
