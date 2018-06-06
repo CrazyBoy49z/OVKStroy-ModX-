@@ -14,8 +14,8 @@
             <div class="col-sm-8">
 
               <div class="contacts-text">
-                <p><i class="fa fa-map-marker"></i> <strong>Адрес:</strong> Москва, ул. Пантелеева, 15, оф. 3-03</p>
-                <p><i class="fa fa-mobile"></i> <strong>Телефон:</strong> 8 (495) 970-44-90</p>
+                <p><i class="fa fa-map-marker"></i> <strong>Адрес:</strong> {$_modx->config.company_address}</p>
+                <p><i class="fa fa-mobile"></i> <strong>Телефон:</strong> {$_modx->config.company_phone}</p>
               </div>
 
               <div class="map">

@@ -8,7 +8,9 @@
       </div>
 
       <div class="col-sm-10 col-sm-offset-1">
-        <p class="tizer-text">Всем клиентам, обратившимся в нашу компанию до октября 2016 года мы предоставляем уникальную возможность получить <strong>скидку до 40%</strong>.</p>
+
+        {$_modx->resource.discounts}
+
         <a href="#callback" class="button"
         data-form="Всем клиентам скидки"
         data-text="Отправить заявку"
